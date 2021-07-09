@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="axolotl-min.js"></script>
+    <script src="main.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
     <title>Axolotl Api</title>
 </head>
 <body>
     <h1>Warning! ⚠ Cute Axolotls Ahead!!</h1>
-    <img src="assets/axolotl.jpg" alt="axolotl">
-    Just look at their cute face! :D
+    <p>
+        <img src="" id="axolotl-api-picture" style="max-width: 50vw; max-height: 300px;">
+    </p><p>
+        <span id="axolotl-api-fact"></span>
+    </p>
+    
+    <script>
+        (async function() {
+            document.getElementById("axolotl-api-picture").src = getRandomFromList(await getPictures());
+            document.getElementById("axolotl-api-fact").innerHTML = getRandomFromList(await getFacts());
+        })();
+    </script>
 </body>
 </html>
