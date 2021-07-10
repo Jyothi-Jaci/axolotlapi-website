@@ -7,16 +7,29 @@
 
     <script src="axolotl-min.js"></script>
     <script src="main.js"></script>
-
+    
     <link rel="stylesheet" href="styles.css">
-
+    <!--Stylesheet for github icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Axolotl Api</title>
 </head>
 <body>
+    <ul>
+        <li><a href="https://axoltlapi.herokuapp.com/">Api</a></li>
+        <li><a href="https://github.com/AxolotlAPI"><i class="fa fa-github" style="font-size:30px"></i></a></li>
+    </ul>
+    <div>
+        <div class="middle">
     <h1>Warning! ⚠ Cute Axolotls Ahead!!</h1>
     <p>
         <img src="" id="axolotl-api-picture" style="max-width: 50vw; max-height: 300px;">
-    </p><p>
+    </p>
+    <button class="next">Next!</button>
+    <button class="prev">Previous!</button>
+</div>
+<div class="middle">
+    <h3>About us</h3>
+    <p>
         <span id="axolotl-api-fact"></span>
     </p>
     
@@ -26,5 +39,7 @@
             document.getElementById("axolotl-api-fact").innerHTML = getRandomFromList(await getFacts());
         })();
     </script>
+    </div>
+    </div>
 </body>
 </html>
