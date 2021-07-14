@@ -2,28 +2,6 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.middle{
-    text-align: center;
-}
-
-ul{
-    text-decoration: none;
-    list-style-type: none;
-    overflow: auto;
-    text-align: right;
-    margin: 0;
-    padding: 14px;
-}
-
-li{
-    display: inline;
-}
-
-li a{
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
 .next{
     background-color: greenyellow;
 }
