@@ -33,64 +33,48 @@
 
         <title>Axolotl API - Tons of cute axolotl pictures</title>
     </head>
-    <body>
+    <body class="teal darken-3">
         <nav>
-            <div class="nav-wrapper">
-                <!--Shouldn't the source code have that github icon?-->
+            <div class="nav-wrapper teal">
                 <a class="brand-logo right" href="https://github.com/AxolotlAPI"><i class="fa fa-github"></i></a>
 
                 <ul class="left hide-on-med-and-down">
-                    <!--<li><a href="https://github.com/AxolotlAPI">Source Code</a></li>-->
                     <li><a href="https://axoltlapi.herokuapp.com/">API</a></li>
                     <li><a href="https://forms.gle/8b9b38RWxL9A6nCd6">Report</a></li>
                 </ul>
             </div>
         </nav>
 
-       <!-- <div class="container">
-            <div class="card-panel hoverable">
-                Here the actual content should be implemented, the original content is still in index.html's source code, but commented.
-            </div>
-        </div>-->
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <!-- <ul>
-            <li><a href="https://axoltlapi.herokuapp.com/" style="font-size:30px">API</a></li>
-            <li><a href="https://github.com/AxolotlAPI"><i class="fa fa-github" style="font-size:30px"></i></a></li>
-        </ul>-->
-
-        <div class="row">
-            <div class="col s6">
-               <!-- <h3>Warning ⚠ cute Axolotls Ahead!</h3>
-                    <p>
-                        Don't think this picture should be here? Feel free to contact AceKiron#5467 on Discord. Remember to provide the image URL.
-                    </p>-->
-                <div class="card hoverable">        
-                    <div class="card-image">
-                        <img src="" id="axolotl-api-picture" style="max-width: 40vw; max-height: 40vw;" alt="cute axolotl">
-                        <span class="card-title ">Axoltols</span>
-                    </div>
-                    <div class="card-content">
-                        <button class="next axolotl-api-picture">Next!</button>
-                        <button class="prev axolotl-api-picture">Previous!</button>
+        <div class="container">
+            <div class="row">
+                <div class="col s6">
+                    <div class="card teal lighten-3 large hoverable">
+                            <img id="axolotl-api-picture" style="max-width: 100%; max-height: 100%" alt="cute axolotl">
+                        <div class="card-action teal">
+                            <a class="prev axolotl-api-picture">Previous</a>
+                            <a class="next axolotl-api-picture">Next</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="col s6">
-                <div class="card hoverable">
-                    <div class="card-content">
-                        <h3 class="card-title">About us</h3>
 
-                        <p>
-                            <span id="axolotl-api-fact"></span>
-                        </p>
+                <div class="col s6">
+                    <div class="card teal lighten-3 large hoverable">
+                        <div class="card-content" style="width: 100%; height: 100%;">
+                            <h3 class="card-title">About us</h3>
 
-                        <button class="next axolotl-api-fact">Next!</button>
-                        <button class="prev axolotl-api-fact">Previous!</button>
+                            <p>
+                                <span id="axolotl-api-fact"></span>
+                            </p>
+                        </div>
+                        <div class="card-action teal">
+                            <a class="prev axolotl-api-fact">Previous</a>
+                            <a class="next axolotl-api-fact">Next</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
 </html>
