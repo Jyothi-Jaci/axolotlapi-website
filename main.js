@@ -28,7 +28,7 @@ $(document).ready(async function() {
 	setPicture(picturesIndex = Math.floor(Math.random() * pictures.length));
 	setFact(factsIndex = Math.floor(Math.random() * facts.length));
 
-	$("button").click(function() {
+	$("a").click(function() {
 		if ($(this).hasClass("axolotl-api-picture")) {
 			// Go through pictures
 			if ($(this).hasClass("next")) {
