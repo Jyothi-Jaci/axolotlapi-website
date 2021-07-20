@@ -46,5 +46,5 @@ $(document).ready(async function() {
 		}
 	});
 	
-	$("#picture-image").attr("style", "max-height: calc(100% - " + $("#picture-action").height() + "px);");
+	$("#picture-image").attr("style", "height: calc(100% - " + $("#picture-action").height() + "px);");
 });
