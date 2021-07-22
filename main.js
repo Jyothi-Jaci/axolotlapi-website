@@ -45,4 +45,6 @@ $(document).ready(async function() {
 			}
 		}
 	});
+	
+	$("#picture-image").attr("style", $("#picture-image").attr("style") + "height: calc(100% - " + $("#picture-action").outerHeight() + "px);");
 });
