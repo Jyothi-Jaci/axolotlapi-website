@@ -11,7 +11,7 @@
         <meta name="description" content="Here you can find tons of cute axolotl pictures, the API is open source and the images are to be used freely. Also has some axolotl facts.">
         <meta name="keywords" content="AXOLOTL, API, CUTE, IMAGES, FACTS, ANIMALS">
         <meta name="theme-color" content="rgb(0, 105, 92)">
-        <meta name="author" content="https://github.com/AxolotlAPI">
+        <meta name="author" content="AxolotlAPI">
 
         <meta property="og:title" content="Axolotl API - Tons of cute axolotl pictures.">
         <meta property="og:description" content="Here you can find tons of cute axolotl pictures, the API is open source and the images are to be used freely. Also has some axolotl facts.">
@@ -32,53 +32,61 @@
 
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
 
         <title>Axolotl API - Tons of cute axolotl pictures</title>
     </head>
     <body class="teal darken-3">
-        <nav>
-            <div class="nav-wrapper teal">
-                <a class="brand-logo right" href="https://github.com/AxolotlAPI"><i class="fa fa-github"></i></a>
+        <header>
+            <nav>
+                <div class="nav-wrapper teal">
+                    <a class="brand-logo right" href="https://github.com/AxolotlAPI" rel="nofollow"><i class="fab fa-github"></i></a>
 
-                <ul class="left hide-on-med-and-down">
-                    <li><a href="https://axoltlapi.herokuapp.com/">API</a></li>
-                    <li><a href="https://forms.gle/8b9b38RWxL9A6nCd6">Report</a></li>
-                </ul>
-            </div>
-        </nav>
+                    <ul class="left hide-on-med-and-down">
+                        <li><a href="https://axoltlapi.herokuapp.com/">API</a></li>
+                        <li><a href="https://forms.gle/8b9b38RWxL9A6nCd6">Report</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-        <div class="container">
-            <div class="row">
-                <div class="col s6">
-                    <div class="card teal lighten-3 large hoverable">
-                        <div class="valign-wrapper card-content" id="picture-image" style="padding: 0px; width: 100%;">
-                            <img id="axolotl-api-picture" style="margin: 0 auto; object-fit: contain; max-height: 100%; max-width: 100%;" alt="cute axolotl">
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col s6">
+                        <div class="card teal lighten-3 large hoverable">
+                            <div class="valign-wrapper card-content" id="picture-image" style="padding: 0px; width: 100%;">
+                                <img id="axolotl-api-picture" style="margin: 0 auto; object-fit: contain; max-height: 100%; max-width: 100%;" alt="cute axolotl">
+                            </div>
+                            <div class="card-action teal" id="picture-action">
+                                <a href="#" class="prev axolotl-api-picture">Previous</a>
+                                <a href="#" class="next axolotl-api-picture">Next</a>
+                            </div>
                         </div>
-                        <div class="card-action teal" id="picture-action">
-                            <a href="#" class="prev axolotl-api-picture">Previous</a>
-                            <a href="#" class="next axolotl-api-picture">Next</a>
+                    </div>
+
+                    <div class="col s6">
+                        <div class="card teal lighten-3 large hoverable">
+                            <div class="card-content" style="width: 100%; height: 100%;">
+                                <h3 class="card-title">About us</h3>
+
+                                <p>
+                                    <span id="axolotl-api-fact"></span>
+                                </p>
+                            </div>
+                            <div class="card-action teal">
+                                <a href="#" class="prev axolotl-api-fact">Previous</a>
+                                <a href="#" class="next axolotl-api-fact">Next</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col s6">
-                    <div class="card teal lighten-3 large hoverable">
-                        <div class="card-content" style="width: 100%; height: 100%;">
-                            <h3 class="card-title">About us</h3>
-
-                            <p>
-                                <span id="axolotl-api-fact"></span>
-                            </p>
-                        </div>
-                        <div class="card-action teal">
-                            <a href="#" class="prev axolotl-api-fact">Previous</a>
-                            <a href="#" class="next axolotl-api-fact">Next</a>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
+        </main>
+
+        <footer class="center-align">
+            <a href="https://github.com/AxolotlAPI" rel="nofollow" style="color: black;"><i class="far fa-copyright"></i> Axolotl API 2021</a>
+        </footer>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     </body>
