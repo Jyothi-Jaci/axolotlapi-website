@@ -1,5 +1,5 @@
 if (window.location.hostname != "theaxolotlapi.netlify.app") {
-	if (window.location.pathname != "/axolotlapi-website/contribute.html" && window.location.protocol != "file:") {
+	if (window.location.pathname != "/axolotlapi-website/axolotlbasics.html" && window.location.protocol != "file:") {
 		window.location.href = "axolotlbasics.html";
 	}
 
