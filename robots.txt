@@ -1,1 +1,1 @@
-Sitemap: https://theaxolotlapi.netlify.app/my_sitemap.xml
+Sitemap: https://theaxolotlapi.netlify.app/sitemap.xml
