@@ -7,7 +7,7 @@
   "theme_color": "#00695c",
   "lang": "en-US",
   "categories": ["axolotl", "api", "cute", "images", "facts", "animals"],
-  "description": "Here you can find tons of cute axolotl pictures, the API is open source and the images are to be used freely. Also has some axolotl facts.",
+  "description": "Here you can find tons of cute axolotl pictures, the API is open source and the images are to be used freely. Our database also contains axolotl facts.",
   "icons": [{
     "src": "favicon.ico",
     "sizes": "256x256",

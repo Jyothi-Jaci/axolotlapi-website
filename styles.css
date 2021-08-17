@@ -11,3 +11,12 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+hr {
+    border: 1px solid black;
+}
+
+a.default-a {
+    color: blue !important;
+    text-decoration: underline !important;
+}
